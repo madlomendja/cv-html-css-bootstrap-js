@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-----------les polices personalisées ------------------>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Caveat:wght@400;500;600;700&family=Covered+By+Your+Grace&family=Dokdo&family=Homemade+Apple&family=Kristi&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Neucha&family=Nunito:wght@200;300;400;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Sigmar+One&display=swap"
+    rel="stylesheet">
+
+  <!----------- les icônes ------------------------>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384- AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://fr.freepik.com/icones-gratuites/telephoner_15044540.htm">
+
+
+
+  <!-- Bootstrap CSS ------------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+  <!-- Feuille de style personnalisée ------------->
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <title>Madeleine Lomendja Developpeuse Web Junior</title>
+
+</head>
+
+<body>
+
+
+  <!-------------- Menu de navigation ---------------->
+  <header class="bebas">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-4">
+
+      <div class="container-fluid">
+
+        <!-------------------nom du site -------------------->
+        <a class="navbar-brand text-primary fs-4" href="../index.html">Madeleine LOMENDJA Developpeuse Web Junior</a>
+
+        <!---- Bouton hamburger pour le responsive ----->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cv-menu"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!------ Les liens-------->
+        <div class="collapse navbar-collapse" id="cv-menu">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="../index.html">Qui suis-je ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="competences_projets.html">Compétences et Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="formations_experiences.html">Formations et Expériences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="mesrealisations.html">Mes réalisations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="contact.html">Contactez-moi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- CONTACT -->
+
+  <div class="container-fluid bebas p-5 bg-secondary">
+    <br>
+    <br>
+    <div class="row text-center py-5 ">
+
+      <!--------------mes coordonnées-------------->
+
+      <div class="col-sm-12 col-md-4 col-lg-4 py-3 px-5">
+        <br>
+        <br>
+        <h3>Mon CV en ligne</h3>
+        <br>
+        <h2 class="text-dark zoom">Mes coordonnées</h2>
+        <div class="adresse text-white zoom">
+          Madeleine Lomendja<br>
+          rue Jean Jaurès<br>
+          77176 Savigny le temple
+        </div>
+        <div>  <a href="https://cvdesignr.com/p/61deca20b1d92">Mon CV à télecharger</a></div>
+        <div id="contacts ">
+          <p class="text-white zoom"><i class="fab fa-whatsapp"> 06 09 77 26 04</i></p>
+          <p class="text-white zoom"><i class="fas fa-mobile-alt"></i> 06 09 77 26 04</p>
+          <p class="text-white zoom"><i class="fas fa-at"></i> mady.lomendja@laposte.net</p>
+        </div>
+      </div>
+
+      <!-------------------formulaire----------------------->
+
+      <div class="col-sm-12 col-md-4 col-lg-6 py-3 px-5 border border border-dark rounded">
+        <h2 class="text-dark">Contactez-moi</h2>
+        <form>
+
+          <!-- Nom -->
+          <div class="form-group">
+            <label class="invisible" for="name">Nom</label>
+            <input type="text" id="nom" class="form-control " placeholder="Votre nom :" value="" required>
+            <div class="invalid-feedback">
+              Le nom ne peut commencer par un chiffre et doit avoir 3 caractères au minimum !
+            </div>
+          </div>
+
+          <!-- Prénom -->
+          <div class="form-group">
+            <label class="invisible" for="surname">Prénom</label>
+            <input type="text" id="prenom" class="form-control border rounded ligneSimple" placeholder="Votre prénom :"
+              value="" required>
+            <div class="invalid-feedback">
+              Le prénom ne peut commencer par un chiffre et doit avoir 3 caractères au minimum !
+            </div>
+          </div>
+
+
+          <!--- Email -->
+          <div class="form-group">
+            <label class="invisible" for="mail">Addresse Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Votre email :" value="" required>
+          </div>
+
+          <!-- Message-->
+          <div class="form-group">
+            <label class="invisible" for="msg">Message</label>
+            <textarea class="form-control form-control-lg" id="message" rows="4" placeholder="Laissez-moi un message :"
+              value="" required></textarea>
+            <div class="invalid-feedback">
+              Le champ message est mal renseigné, il faut un minimum de 3 caractères !
+            </div>
+          </div>
+
+          <div class="mt-5 zoom text-center">
+            <button type="submit" id="submit" class="btn btn-secondary bg-primary"><span class="mx-3">Envoyer</span><i
+                class=""></i></button>
+          </div>
+        </form>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  </div>
+
+
+
+
+  <!--  SCRIPT JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/test_formulaire.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS pour responsive-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-
+  J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-
+  Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-
+  wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+<footer>
+  <div class="copyright">
+    &copy;&nbsp;lomendja&nbsp;madeleine
+  </div>
+</footer>
+
+</html>
